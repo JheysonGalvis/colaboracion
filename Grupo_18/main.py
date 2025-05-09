@@ -1,7 +1,7 @@
 # This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from grupo_1.Variables import entero_postivo, flotante_1, resultado_suma
+# Grupo No. 18
 
 
 def print_hi(name):
