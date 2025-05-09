@@ -60,3 +60,8 @@ print(mi_lista)
 #################### DICCIONARIO
 mi_diccionario = {'clave1': 'valor1', 'clave2': 'valor2', 'clave3': 'valor3'}
 
+mi_diccionario = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid'
+}
