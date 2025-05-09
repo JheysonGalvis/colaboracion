@@ -32,7 +32,7 @@ def print_hi(name):
 
     # Asociación de valores en la declaración
     ciudad = "Bogotá D.C."
-    población = 9000000
+    poblacion = 9000000
 
     # Reasignación de valores
     ciudad = "Medellin"
@@ -42,6 +42,12 @@ def print_hi(name):
     nombre_completo = "Vladimir C."
     temperatura_actual = 23.5
 
+    # Tipos de variables dinámicas
+    variable_dinamica = 10
+    print(variable_dinamica)
+
+    variable_dinamica = "Saludo de bienvenida"
+    print(variable_dinamica)
 
 
 
