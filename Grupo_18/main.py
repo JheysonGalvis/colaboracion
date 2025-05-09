@@ -1,7 +1,7 @@
 # This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from grupo_1.Variables import entero_postivo, flotante_1
+from grupo_1.Variables import entero_postivo, flotante_1, resultado_suma
 
 
 def print_hi(name):
@@ -60,6 +60,11 @@ def print_hi(name):
     flotante_2 = -3.1416
     print(flotante_1, flotante_2)
 
+    # Operaciones con enteros y flotantes
+    resultado_suma = entero_postivo + entero_negativo + flotante_1 + flotante_2
+    resultado_multiplicacion = entero_postivo * entero_negativo * flotante_1 * flotante_2
+    print(f"El resultado de la multiplicación es: {resultado_multiplicacion}")
+    print(f"El resultado de la suma es: {resultado_suma}")
 
 
 

@@ -23,6 +23,7 @@ print(tercer_elemento)
 print(mi_lista[5])
 
 
+
 longitud = len(mi_lista)
 print(f'Longitud 1 = {longitud}')
 
@@ -72,3 +73,10 @@ print(tupla_anidada[0][1])
 mi_lista.remove(5)
 print(mi_lista)
 
+
+#################################Diccionarios
+mi_diccionario = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Madrid'
+}
