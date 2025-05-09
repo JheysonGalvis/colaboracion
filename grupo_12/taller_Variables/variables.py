@@ -68,3 +68,4 @@ print("Resta:", resta)
 print("Multiplicación:", multiplicacion)
 print("División:", division)
 
+# Guillermo Farfán
