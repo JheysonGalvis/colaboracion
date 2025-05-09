@@ -1,6 +1,7 @@
 # This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from grupo_1.Variables import entero_postivo
 
 
 def print_hi(name):
@@ -48,6 +49,11 @@ def print_hi(name):
 
     variable_dinamica = "Saludo de bienvenida"
     print(variable_dinamica)
+
+    # Enteros
+    entero_postivo = 10
+    entero_negativo = -20
+    print(entero_postivo, entero_negativo)
 
 
 
