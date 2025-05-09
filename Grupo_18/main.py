@@ -1,4 +1,6 @@
 # This is a sample Python script.
+from Grupo_6.variables import es_estudiante
+
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -21,10 +23,16 @@ def print_hi(name):
 
     # Especificando un separador diferente
     #Separadores
-
     nombre = "Vladimir C."
     edad = 48
     print(nombre, edad, sep= "-")
+
+    # Ejemplo de declaración y asignación de variables
+    nombre = "Vladimir C."  # Una variable de cadena
+    edad = 48   # Una variable de entero
+    altura = 1.75   #Una variable de punto flotante
+    es_estudiante = True    # Una variable booleana
+
 
 
 
