@@ -38,6 +38,10 @@ def print_hi(name):
     ciudad = "Medellin"
     poblacion = 4500000
 
+    # Convenciones de nombres
+    nombre_completo = "Vladimir C."
+    temperatura_actual = 23.5
+
 
 
 
