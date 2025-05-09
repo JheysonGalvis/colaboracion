@@ -33,6 +33,13 @@ def print_hi(name):
     altura = 1.75   #Una variable de punto flotante
     es_estudiante = True    # Una variable booleana
 
+    # Asociación de valores en la declaración
+    ciudad = "Bogotá D.C."
+    población = 9000000
+
+    # Reasignación de valores
+    ciudad = "Medellin"
+    poblacion = 4500000
 
 
 
