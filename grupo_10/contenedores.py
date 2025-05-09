@@ -7,6 +7,7 @@ print(tercer_elemento)
 print(mi_lista[5])
 
 
+
 longitud = len(mi_lista)
 print(f'Longitud 1 = {longitud}')
 
@@ -59,4 +60,3 @@ print(mi_lista)
 #################### DICCIONARIO
 mi_diccionario = {'clave1': 'valor1', 'clave2': 'valor2', 'clave3': 'valor3'}
 
-                  
