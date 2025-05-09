@@ -7,22 +7,22 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-    mensaje  = "Bienvenidos al bootcamp de IA Talento Tech2"
+    mensaje  = "Bienvenido al bootcamp de IA Talento Tech2"
     print (mensaje)
 
     # Formato de Cadenas
-    nombre = "Ana"
-    edad = 30
+    nombre = "Vladimir C."
+    edad = 48
     print(f"Mi nombre es {nombre} y tengo {edad} años.")
 
     # Fin de línea
     print("Hola", end=" ")
-    print("mundo!")
+    print("Campistas Talento Tech 2!")
 
     # Especificando un separador diferente
     #Separadores
 
-    nombre = "Juan"
+    nombre = "Vladimir C."
     edad = 48
     print(nombre, edad, sep= "-")
 
@@ -31,6 +31,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print_hi('Vladimir Cortés A.')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
