@@ -1,7 +1,4 @@
 # This is a sample Python script.
-from Grupo_6.variables import es_estudiante
-
-
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
