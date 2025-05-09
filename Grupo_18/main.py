@@ -1,7 +1,7 @@
 # This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from grupo_1.Variables import entero_postivo
+from grupo_1.Variables import entero_postivo, flotante_1
 
 
 def print_hi(name):
@@ -54,6 +54,12 @@ def print_hi(name):
     entero_postivo = 10
     entero_negativo = -20
     print(entero_postivo, entero_negativo)
+
+    # Flotantes
+    flotante_1 = 3.1416
+    flotante_2 = -3.1416
+    print(flotante_1, flotante_2)
+
 
 
 
