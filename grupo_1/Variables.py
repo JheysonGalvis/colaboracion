@@ -62,7 +62,69 @@ print(resultado_multiplicacion)
 
 # Cadenas
 cadena_simple = 'Hola, mundo'
+cadena_doble = "Python es divertido"
 
 
+# Concatenacion de cadenas
+saludo_completo = cadena_simple + ' ' + cadena_doble
+print(saludo_completo)
+
+
+
+#--------------------------------------------------------------
+
+# EJERCICIOS
+
+#--------------------------------------------------------------
+
+
+# Operaciones con cadenas
+cadena1 = 'cadena1'
+cadena2 = 'cadena2'
+concatenacion_cadenas = cadena1 + cadena2
+print(len(concatenacion_cadenas))
+
+# Formato de cadenas
+nombre = 'Angel'
+print(f'Bienvenido {nombre} al mundo de Python')
+
+# Subcadenas y metodos
+lista_larga = 'Estos ejercicios proporcionan una variedad de situaciones para trabajar con números'
+lista_palabras = lista_larga.split()
+print(f'Lista de palabras: {lista_palabras}')
+palabra = 'proporcionan'
+posicion = lista_larga.find(palabra)
+print(f'La palabra {palabra} esta en la posicion {posicion}')
+
+# Metodos de mayusculas y minusculas
+cadena_min = 'angel david aristizabal arias'
+cadena_may = 'ANGEL DAVID ARISTIZABAL ARIAS'
+
+cadena_min.upper()
+cadena_may.lower()
+
+# Operaciones aritmeticas
+a = 5
+b = 4
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a ** b)
+
+# Division y modulo
+resultado = 10 / 3
+print(10 % 3)
+
+# Presision de flotantes
+c = 5.4234
+suma = a + c
+resta = a - c
+mult = a * c
+div = a / c
+print(f'el resultado de la suma es: {suma:.1f}')
+print(f'el resultado de la resta es: {resta:.1f}')
+print(f'el resultado de la multiplicacion es: {mult:.1f}')
+print(f'el resultado de la division es: {div:.1f}')
 
 
