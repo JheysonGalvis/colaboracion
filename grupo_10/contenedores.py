@@ -1,20 +1,4 @@
-mi_lista = ['a', 'b', 'c', 1, 2, 3]
-primer_elemento = mi_lista[0]  #Resultado: 1
-tercer_elemento = mi_lista[2]  #Resultado: 3
-print(primer_elemento)
-print(tercer_elemento)
-print(mi_lista[5])
-
-# Agregar elementos al final de la lista
-mi_lista.append(4)
-mi_lista.append('grupo_10')
-
-#Eliminar elementos por valor
-mi_lista.remove('b')
-
-# Extender la lista con otra lista
-otra_lista = [5, 6]
-mi_lista.extend(otra_lista)#################### LISTA
+#################### LISTA
 mi_lista = ['a', 'b', 'c', 1, 2, 3]
 primer_elemento = mi_lista[0]  #Resultado: 1
 tercer_elemento = mi_lista[2]  #Resultado: 3
@@ -73,8 +57,9 @@ print(tupla_anidada[0][1])
 mi_lista.remove(5)
 print(mi_lista)
 
+#################### DICCIONARIO
+mi_diccionario = {'clave1': 'valor1', 'clave2': 'valor2', 'clave3': 'valor3'}
 
-#################################Diccionarios
 mi_diccionario = {
     'nombre': 'Juan',
     'edad': 30,
