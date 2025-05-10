@@ -21,12 +21,12 @@ def print_hi(name):
 
     # Especificando un separador diferente
     #Separadores
-    nombre = "Vladimir C."
+    nombre = "Víctor C. Vladimir C."
     edad = 48
     print(nombre, edad, sep= "-")
 
     # Ejemplo de declaración y asignación de variables
-    nombre = "Vladimir C."  # Una variable de cadena
+    nombre = "Víctor C. Vladimir C."  # Una variable de cadena
     edad = 48   # Una variable de entero
     altura = 1.75   #Una variable de punto flotante
     es_estudiante = True    # Una variable booleana
@@ -70,6 +70,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('Vladimir Cortés A.')
+    print_hi('Víctor C. Vladimir Cortés A.')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
