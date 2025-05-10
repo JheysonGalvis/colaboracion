@@ -1,6 +1,4 @@
-from grupo_10.contenedores import mi_lista
-
-
+# Workspace built by group 18
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
