@@ -54,14 +54,33 @@ print(j)
 
 tupla_anidada = ((1, 2),('a', 'b'))
 print(tupla_anidada[0][1])
-mi_lista.remove(5)
+#mi_lista.remove(5)
 print(mi_lista)
 
 #################### DICCIONARIO
 mi_diccionario = {'clave1': 'valor1', 'clave2': 'valor2', 'clave3': 'valor3'}
-
+valor_asociado_a_clave1 = mi_diccionario['clave1']
 mi_diccionario = {
     'nombre': 'Juan',
     'edad': 30,
     'ciudad': 'Madrid'
 }
+
+#resultado:'valor1'
+print (mi_diccionario['ciudad'])
+mi_diccionario['clave1'] = 'nuevo_valor'
+mi_diccionario['nueva_clave1'] = 'valor_nuevo'
+del mi_diccionario['clave1']
+print(mi_diccionario)
+existe_clave = 'clave1' in mi_diccionario
+#Resultado: False (ya que la eliminamos)
+print(existe_clave)
+cantidad_elementos = len(mi_diccionario)
+#Resultado:2 (luego de eliminar una clave)
+print(cantidad_elementos)
+for clave in mi_diccionario:
+    valor= mi_diccionario[clave]
+    print(valor)
+
+diccionario_anidado = {'clave1': {'subclave1': 'valor_subclave1'},'clave2': {'subclave2': 'valor_subclave2'}}
+print(diccionario_anidado['clave1']['subclave1'])
