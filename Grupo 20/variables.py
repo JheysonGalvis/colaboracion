@@ -22,6 +22,12 @@ print(f"Ahora soy mayusculas: {minusculas.upper()}")
 print(f"Ahora soy minusculas: {mayusculas.lower()}")
 
 #Operaciones aritméticas
+# Enteros
+entero_positivo = 20
+entero_negativo = -10
+# Foltantes
+flotante_1 = 10.5
+flotante_2 = -0.2
 #División y módulo
 num1 = 56
 num2 = 12
