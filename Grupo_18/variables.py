@@ -1,7 +1,6 @@
-# This is a sample Python script.
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-# Grupo No. 18
+# Workspace built by group 18.
 
 
 def print_hi(name):
@@ -11,7 +10,7 @@ def print_hi(name):
     print (mensaje)
 
     # Formato de Cadenas
-    nombre = "Vladimir C."
+    nombre = "Víctor C. Vladimir C."
     edad = 48
     print(f"Mi nombre es {nombre} y tengo {edad} años.")
 
