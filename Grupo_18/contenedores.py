@@ -1,7 +1,6 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 # Workspace built by group 18.
-from grupo_10.contenedores import tupla_anidada, mi_diccionario, valor_asociado_a_clave1, cantidad_elementos
 
 
 def print_hi(name):
@@ -98,29 +97,6 @@ def print_hi(name):
     diccionario_anidado = {'clave1':{'subclave1':'valor_subclave1'},
                            'clave2':{'subclave2':'valor_subclave2'},
                            'clave3':{'subclave3':'valor_subclave3'}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
