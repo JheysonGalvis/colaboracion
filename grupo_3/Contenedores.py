@@ -97,3 +97,54 @@ for clave, valor in mi_diccionario.items():
 print("\nDiccionario actualizado:")
 for clave, valor in mi_diccionario.items():
     print(f"{clave.capitalize()}: {valor}")
+    
+    
+    
+    # Operaciónes basicas
+    # Creamos la lista vacia
+    mi_lista = []
+    
+    # Agregamos los numeros del 1 al 5 a la lista
+    mi_lista.append(1)
+    mi_lista.append(2)
+    mi_lista.append(3)
+    mi_lista.append(4)
+    mi_lista.append(5)
+    
+    # Imprimimos la lista
+    print("lista original:", mi_lista)
+    
+    # Eliminamos el numero 3 de la lista
+    mi_lista.remove(3)
+    
+    # Imprimimos la lista actualizada
+    print("Lista actualizada:", mi_lista)
+    
+    
+    
+    # Rebanado de listas
+    # Creamos la lista de números del 1 al 10
+    números = list(range(1, 11))
+    
+    # Imprimimos los primeros tres elementos
+    print("Primeros tres elementos:", números[:3])
+    
+    # Imprimimos los elementos desde el tercero hasta el sexto
+    print("Elementos del tercero al sexto:", números[2:6])
+    
+    # Imprimimos los ultimos dos elementos
+    print("Ultimos dos elementos:", números[-2:])
+    
+    
+    
+    # Listas y ciclos
+    # Creamos la lista
+    mi_lista = [1, 2, 4, 5]
+    
+    # Imprimimos cada elemento de la lista
+    for elemento in mi_lista:
+        print(elemento)
+        
+    
+    
+    
